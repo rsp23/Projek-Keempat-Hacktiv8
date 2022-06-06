@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_15sdp"
+            android:layout_margin="@dimen/_20sdp"
+            android:background="@drawable/ic_back_arrow" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:background="@drawable/ic_brand" />
+    </RelativeLayout>
+    <ImageView
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_below="@id/header"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/image1"
+        android:background="@drawable/ic_people_one"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_200sdp"/>
+    <TextView
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_width="wrap_content"
+        android:textSize="@dimen/_22sdp"
+        android:textStyle="bold"
+        android:text="Everything’s up!"
+        android:id="@+id/text1"
+        android:layout_below="@id/image1"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_width="wrap_content"
+        android:textAlignment="center"
+        android:textSize="@dimen/_12sdp"
+        android:lineSpacingExtra="10sp"
+        android:textStyle="normal"
+        android:text="You’re all set and ready to use Bux. \nEnjoy our service!"
+        android:layout_below="@id/text1"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/_20sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:text="take me to bux"
+        android:background="@drawable/ic_box_purple"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

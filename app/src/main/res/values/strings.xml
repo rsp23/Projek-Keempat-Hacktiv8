@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ProjekKeempat</string>
+    <string name="str_welcome">Welcome!</string>
+    <string name="str_welcome_description">Bux is a online booking service for\n Bus transportation. login now to\n user Bux services.</string>
+    <string name="str_sign_up">Sign up with google</string>
+    <string name="str_departure_locations">Departure Locations</string>
+    <string name="str_arrival_locations">Arrival Locations</string>
+    <string name="str_departure">Departure</string>
+    <string name="str_try_departure">Try “Pekanbaru”</string>
+    <string name="str_passenger">passenger</string>
+    <string name="str_arrival">Arrival</string>
+    <string name="str_try_arrival">Try “Medan”</string>
+    <string name="str_passengers">Passengers</string>
+    <string name="str_ppl">1 ppl</string>
+    <string name="str_date">Date</string>
+    <string name="str_select_date">Select date</string>
+    <string name="str_cancel">Cancel</string>
+    <string name="str_nearby">nearby</string>
+    <string name="str_title_sliding">Select how much passenger</string>
+    <string name="str_sliding_description">Older than 2 years old should buy a seat</string>
+    <string name="str_1">1</string>
+    <string name="str_10">10</string>
+    <string name="str_select">select</string>
+    <string name="str_todo_back_button">Back Button</string>
+    <string name="str_departure_date">Departure Date</string>
+</resources>
