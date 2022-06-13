@@ -128,10 +128,10 @@
     <string name="str_univ1">STIE Indonesia Banking School</string>
     <string name="str_portofolio1">\@amrimarihotjati</string>
     <string name="str_portofoliourl1">https://github.com/amrimarihotjati</string>
-    <string name="str_kon2">Nuryadin Abutani</string>
-    <string name="str_univ2">Sekolah Tinggi Teknologi Bandng</string>
-    <string name="str_portofolio2">\@nuryadincjr</string>
-    <string name="str_portofoliourl2">https://github.com/nuryadincjr</string>
+    <string name="str_kon2">Evandro Malsi</string>
+    <string name="str_univ2">Mercu Buana</string>
+    <string name="str_portofolio2">\@evandromalsi</string>
+    <string name="str_portofoliourl2">https://github.com/evandromalsi</string>
     <string name="str_about_description">Online booking service for Bus transportation</string>
     <string name="str_how_was_your_trip">How was your trip?</string>
     <string name="str_you_ve_been_complete_your_trip_with_this_detail">You\'ve been complete your trip with this detail</string>
