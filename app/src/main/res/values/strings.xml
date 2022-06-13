@@ -2,7 +2,7 @@
     <string name="app_name">Final Project 4</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="str_welcome">Welcome!</string>
-    <string name="str_welcome_description">E-Busantara is a online booking service for Bus transportation. login now to user E-Busantara services.</string>
+    <string name="str_welcome_description">Bux is a online booking service for Bus transportation. login now to user E-Busantara services.</string>
     <string name="str_sign_up">Sign up wth google</string>
     <string name="str_almost_there">Almost there</string>
     <string name="str_setup_description">Fill your phone number below, so we can easily catch you up.</string>
