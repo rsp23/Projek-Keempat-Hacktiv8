@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjekKeempat">
         <activity
+            android:name=".SeatsChooserActivity"
+            android:exported="false" />
+        <activity
             android:name=".BusDetailActivity"
             android:exported="false" />
         <activity
