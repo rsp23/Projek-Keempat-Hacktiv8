@@ -74,8 +74,8 @@ tools:context=".SearchLocationActivity">
             app:shimmer_demo_layout="@layout/layout_demo_list"
             app:shimmer_demo_layout_manager_type="linear_vertical"
             app:shimmer_demo_angle="20"
-            tools:listitem="@layout/item_destination_search"
-            tools:ignore="MissingClass" />
+            tools:listitem="@layout/item_destination_search"/>
+
 
     </LinearLayout>
 

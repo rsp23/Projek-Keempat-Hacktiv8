@@ -23,4 +23,13 @@
     <string name="str_select">select</string>
     <string name="str_todo_back_button">Back Button</string>
     <string name="str_departure_date">Departure Date</string>
+    <string name="str_bus_details">Bus Details</string>
+    <string name="str_see_picture">See Picture</string>
+    <string name="str_bus_no">Bus No.</string>
+    <string name="str_available_seat">Available Set</string>
+    <string name="str_0_seat_are_available">0 Seat are available</string>
+    <string name="str_2_x_2_seats_arrangement">2 x 2 seats arrangement</string>
+    <string name="str_class">Class</string>
+    <string name="str_facility">Facility</string>
+    <string name="str_give_your_best_review">Give your best review</string>
 </resources>
