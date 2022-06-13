@@ -62,10 +62,16 @@
         <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/layout/layout_sliding_up_panel.xml" value="0.259375" />
         <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/layout/layout_total_payment.xml" value="0.259375" />
         <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/layout/selector_chooser.xml" value="0.259375" />
+        <entry key="..\:/Users/evand/StudioProjects/Projek-Keempat-Hacktiv8/app/src/main/res/drawable/ic_outline_article.xml" value="0.1" />
+        <entry key="..\:/Users/evand/StudioProjects/Projek-Keempat-Hacktiv8/app/src/main/res/drawable/ic_outline_notifications.xml" value="0.1" />
+        <entry key="..\:/Users/evand/StudioProjects/Projek-Keempat-Hacktiv8/app/src/main/res/drawable/ic_outline_person.xml" value="0.1" />
+        <entry key="..\:/Users/evand/StudioProjects/Projek-Keempat-Hacktiv8/app/src/main/res/drawable/ic_search.xml" value="0.1" />
+        <entry key="..\:/Users/evand/StudioProjects/Projek-Keempat-Hacktiv8/app/src/main/res/menu/menu_button_navigation.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/evand/StudioProjects/Projek-Keempat-Hacktiv8/app/src/main/res/menu/menu_more_item.xml" value="0.19635416666666666" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
