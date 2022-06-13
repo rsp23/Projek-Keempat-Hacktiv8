@@ -65,15 +65,10 @@ tools:context=".SearchLocationActivity">
             android:text="@string/str_nearby"
             tools:ignore="TextContrastCheck" />
 
-        <com.cooltechworks.views.shimmer.ShimmerRecyclerView
+        <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rvSearch"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:shimmer_demo_child_count="5"
-            app:shimmer_demo_grid_child_count="1"
-            app:shimmer_demo_layout="@layout/layout_demo_list"
-            app:shimmer_demo_layout_manager_type="linear_vertical"
-            app:shimmer_demo_angle="20"
             tools:listitem="@layout/item_destination_search"/>
 
 
