@@ -32,4 +32,8 @@
     <string name="str_class">Class</string>
     <string name="str_facility">Facility</string>
     <string name="str_give_your_best_review">Give your best review</string>
+    <string name="str_default_count">0</string>
+    <string name="str_payment_description">please select one of the payment method below</string>
+    <string name="str_select_payment">Select payment</string>
+    <string name="str_retail_payment">Retail Payment</string>
 </resources>
