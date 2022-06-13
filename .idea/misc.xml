@@ -21,6 +21,8 @@
         <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/drawable/ic_add_comment.xml" value="0.196" />
         <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/drawable/ic_alfamart.xml" value="0.196" />
         <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/drawable/ic_bank_transfer.xml" value="0.196" />
+        <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/drawable/ic_bni.xml" value="0.196" />
+        <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/drawable/ic_cimb_niaga.xml" value="0.196" />
         <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/drawable/ic_credit_card.xml" value="0.196" />
         <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/drawable/ic_ellipse.xml" value="0.196" />
         <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/drawable/ic_line.xml" value="0.196" />
@@ -35,6 +37,7 @@
         <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/drawable/selector_filter.xml" value="0.196" />
         <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/font/lato.xml" value="0.28958333333333336" />
         <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/font/nunito_extrabold.xml" value="0.28958333333333336" />
+        <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/layout/activity_bank_transfer.xml" value="0.259375" />
         <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/layout/activity_bus_chooser.xml" value="0.259375" />
         <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/layout/activity_bus_detail.xml" value="0.259375" />
         <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/layout/activity_detail_payment.xml" value="0.259375" />
@@ -48,6 +51,7 @@
         <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/layout/activity_set_calender.xml" value="0.259375" />
         <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/layout/activity_sign_up_succes.xml" value="0.259375" />
         <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/layout/activity_splash_screen.xml" value="0.22826086956521738" />
+        <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/layout/activity_transfer_verification.xml" value="0.259375" />
         <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/layout/book_trip.xml" value="0.2453125" />
         <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/layout/item_destination_search.xml" value="0.259375" />
         <entry key="..\:/MBKM/ProjekKeempat/app/src/main/res/layout/item_reviews.xml" value="0.259375" />

@@ -36,4 +36,9 @@
     <string name="str_payment_description">please select one of the payment method below</string>
     <string name="str_select_payment">Select payment</string>
     <string name="str_retail_payment">Retail Payment</string>
+    <string name="str_bni_mobile_banking">BNI Mobile Bangking</string>
+    <string name="str_cimb">CIMB Niaga Mobile Bangking</string>
+    <string name="string_bank_steps">1. Select transfer\n2. In sub menu select virtual account transfer\n3. Type this number in the field</string>
+    <string name="str_bank_steps_second">4. After you press continue, input this number to the transfer amount field.</string>
+    <string name="str_steps_third">5. Dont forget to keep the receipt for verification process.</string>
 </resources>
