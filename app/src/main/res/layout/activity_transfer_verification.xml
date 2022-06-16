@@ -84,7 +84,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:fontFamily="@font/lato"
-                            android:padding="20dp"
+                            android:padding="@dimen/_20sdp"
                             android:text="@string/string_bank_steps" />
 
                         <TextView
@@ -107,7 +107,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:fontFamily="@font/lato"
-                            android:padding="20dp"
+                            android:padding="@dimen/_20sdp"
                             android:text="@string/str_bank_steps_second" />
 
                         <TextView
@@ -129,7 +129,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:fontFamily="@font/lato"
-                            android:padding="20dp"
+                            android:padding="@dimen/_20sdp"
                             android:text="@string/str_steps_third" />
 
                     </LinearLayout>
