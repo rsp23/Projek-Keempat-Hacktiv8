@@ -1,9 +1,225 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<com.sothree.slidinguppanel.SlidingUpPanelLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sliding_layout"
+    android:background="@color/gray_ed"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".BusChooserActivity">
+    android:gravity="bottom"
+    android:fitsSystemWindows="true"
+    app:umanoInitialState="hidden"
+    tools:context="BusChooserActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            app:elevation="0dp">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_scrollFlags="scroll|enterAlways">
+
+                <ImageView
+                    android:id="@+id/ivBackArrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="?selectableItemBackgroundBorderless"
+                    android:contentDescription="@string/str_todo_back_button"
+                    android:padding="@dimen/_8sdp"
+                    android:src="@drawable/ic_back_arrow"
+                    tools:ignore="RedundantDescriptionCheck" />
+
+                <ImageView
+                    android:id="@+id/ivBrand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_brand" />
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <LinearLayout
+                android:id="@+id/llTabFilter"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:baselineAligned="false"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_5sdp"
+                    android:paddingStart="@dimen/_20sdp"
+                    android:paddingEnd="@dimen/_20sdp">
+
+                    <LinearLayout
+                        android:id="@+id/llDeparture"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_filter"
+                        android:drawablePadding="16dp"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_10sdp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lato"
+                            android:text="@string/str_departure"
+                            tools:ignore="TextContrastCheck" />
+
+                        <TextView
+                            android:id="@+id/tvDeparture"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/nunito_extrabold"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            app:drawableEndCompat="@drawable/ic_round_keyboard_arrow_down"
+                            app:drawableTint="@drawable/selector_drawable"
+                            tools:text="Medan" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/llArrival"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/selector_filter"
+                        android:drawablePadding="16dp"
+                        android:orientation="vertical"
+                        android:padding="@dimen/_10sdp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/lato"
+                            android:text="@string/str_arrival"
+                            tools:ignore="TextContrastCheck" />
+
+                        <TextView
+                            android:id="@+id/tvArrival"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/nunito_extrabold"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            app:drawableEndCompat="@drawable/ic_round_keyboard_arrow_down"
+                            app:drawableTint="@drawable/selector_drawable"
+                            tools:text="Cianjur" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_40sdp"
+                    android:paddingEnd="@dimen/_20sdp"
+                    android:paddingStart="@dimen/_20sdp"
+                    android:paddingBottom="@dimen/_8sdp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tvDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="5dp"
+                        android:background="@drawable/selector_filter"
+                        android:fontFamily="@font/lato"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        tools:ignore="TextContrastCheck"
+                        tools:text="Fri, 23 Jul 2019" />
+
+                    <TextView
+                        android:id="@+id/tvSeats"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:background="@drawable/selector_filter"
+                        android:fontFamily="@font/lato"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        tools:ignore="TextContrastCheck"
+                        tools:text="Seat 2" />
+
+                    <Spinner
+                        android:id="@+id/tvFilters"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginEnd="@dimen/_5sdp"
+                        android:background="@drawable/selector_filter"
+                        android:fontFamily="@font/lato_bold"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/str_sort_by_best_experience"
+                        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+                    <TextView
+                        android:id="@+id/tvApply"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/selector_btn"
+                        android:fontFamily="@font/lato"
+                        android:gravity="center"
+                        android:padding="@dimen/_5sdp"
+                        android:text="@string/str_apply"
+                        android:textColor="@color/white"
+                        tools:ignore="TextContrastCheck" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvBuses"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:listitem="@layout/item_destination" />
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|top">
+
+        <include
+            android:id="@+id/layoutSlidingUp"
+            layout="@layout/layout_sliding_up_panel" />
+
+    </RelativeLayout>
+
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>
