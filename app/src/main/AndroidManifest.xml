@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjekKeempat">
         <activity
+            android:name=".TiketActivity"
+            android:exported="false" />
+        <activity
             android:name=".TransferVerificationActivity"
             android:exported="false" />
         <activity

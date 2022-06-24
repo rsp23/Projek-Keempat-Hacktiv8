@@ -8,11 +8,11 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_marginTop="@dimen/_30sdp"
-        android:layout_marginLeft="@dimen/_30sdp"
         android:layout_width="wrap_content"
-        android:background="@drawable/ic_brand"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/ic_brand" />
 
     <ImageView
         android:id="@+id/iconPeople"
@@ -250,8 +250,10 @@
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="match_parent"
-            android:layout_height="@dimen/_40sdp">
+            android:layout_height="@dimen/_40sdp"
+            android:background="@color/gray_e5"
+            app:menu="@menu/menu_button_navigation"/>
 
-        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
     </androidx.cardview.widget.CardView>
 </RelativeLayout>
